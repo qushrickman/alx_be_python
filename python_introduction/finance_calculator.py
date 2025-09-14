@@ -9,9 +9,9 @@ monthly_savings = monthly_income - monthly_expense
 
 #Project Annual Saving
 
-simple_interest = 5%
+simple_interest = 0.05
 
-projected_savings = (monthly_savings * 12 + (monthly_savings * 12 * 0.05))
+projected_savings = int(monthly_savings * 12 + (monthly_savings * 12 * 0.05))
 
 #output results
 
