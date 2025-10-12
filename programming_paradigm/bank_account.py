@@ -25,8 +25,6 @@ class BankAccount:
         else:
             return False  # Not enough funds
 
-    
     def display_balance(self):
-    """Print the current balance."""
-    print(f"Current Balance: ${self.account_balance:.2f}")
-
+        """Print the current balance."""
+        print(f"Current Balance: ${self.account_balance:.2f}")
